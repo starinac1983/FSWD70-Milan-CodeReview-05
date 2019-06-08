@@ -1,0 +1,37 @@
+
+   var movies = `[
+
+    {
+
+       "movieId": 0,
+       "movieName": "A star is born",
+       "shortDescription": "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.",
+       "moviePoster": "img/astarisborn.jpg"
+   }, {
+       "movieId": 1,
+       "movieName": "Halloween",
+       "shortDescription": "Laurie Strode confronts Michael Myers, the masked figure who has haunted her since she narrowly escaped his killing spree on Halloween night four decades ago.",
+       "moviePoster": "img/halloween.jpg"
+   },{
+       "movieId": 2,
+       "movieName": "Firstman",
+       "shortDescription": "A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.",
+       "moviePoster": "img/firstman.jpg"
+   },{
+       "movieId": 3,
+       "movieName": "Bad times at the El Royale",
+       "shortDescription": "Circa 1969, several strangers, meet by chance at Lake Tahoe's El Royale hotel. Over the course of one night, everyone will show himself - before everything goes to hell.",
+       "moviePoster": "img/elroyale.jpg"
+   },{
+
+       "movieId": 4,
+       "movieName": "Mandy",
+       "shortDescription": "The enchanted lives of a couple in a secluded forest are brutally shattered by a nightmarish hippie cult and their demon-biker henchmen, propelling a man into a spiraling, surreal rampage of vengeance.",
+       "moviePoster": "img/mandy.jpg"
+   },{
+
+       "movieId": 5,
+       "movieName": "Crazy rich asians",
+       "shortDescription": "This contemporary romantic comedy, based on a global bestseller, follows native New Yorker Rachel Chu to Singapore to meet her boyfriend's family.",
+       "moviePoster": "img/crazyrichasians.jpg"
+}]`;
