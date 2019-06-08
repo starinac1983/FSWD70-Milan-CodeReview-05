@@ -4,11 +4,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Advandced</title>
+	<title>Movies</title>
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<style type="text/css">
+
 		#firstrow, #lastrow {
 			background-color: black;
 		}
@@ -16,88 +17,113 @@
 			background-color: #434343 ;
 		}
 		#thirdrow, #fourthrow, #fifthrow, #sixstrow {
-			background-color: #171E24 ;
+			background-color: #111111 ;
 		}
 		#mf {
 			font-size: 5em;
 			width: auto;
 		}
+		.box{
+			background-color: #2EA33A ;
+			margin: 5px;
+			width: 80px;
+			height: 50px;
+		}
+
+		body {
+background-color: #171E24 ;
+		}
+
+		.between {
+background-color: #171E24 ;
+		}
+	
 	</style>
 </head>
+
 <body>
 
 	
 <div class="container-fluid">
-	<div class="row mt-6 mb-6 text-light" id="firstrow">
-		<div class="col-lg-12 col-md-3 col-sm-12 col-xs-12  text-lg-center">
-			<div id="mf" class="mb-10 mt-10">Movie Factory</div>
+	<div class="row text-light" id="firstrow">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 text-xl-center text-lg-center text-md-center text-sm-center text-xs-center text-center">
+			<div class="h1 p-1 mt-0">Movie Factory</div>
 		</div>
 	</div>
 
 	<div class="row text-white pl-2" id="secondrow">
-		<p class="h2 p-2 mt-0 font-weight-bold" >Home</p>
+		<p class="h3 p-2 mt-0 font-weight-bold" >Home</p>
 	</div>
 
 	<div class="row text-white" id="thirdrow">
-		<p class="h3 col-auto mr-auto">Movies</p>
-		<p class="h3 col-auto">Sort</p>
+		<p class="h4 col-auto mr-auto">Movies</p>
+		<p class="h4 col-auto">Sort</p>
 	</div>
 
-	<div class="row text-white" id="fourthrow"> 
+	<div class="row m-5 text-white " id="fourthrow"> 
 
 		<!-- first product start -->
 
-		<div class="col-md-3 col-sm-12 col-xs-12 "> 
-			<img src="img/notebook_apple.png" id="foto0"class="img-responsive"> 
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2">
+			<img src="" id="foto0" class="img-fluid"> 
 		</div>
-		<div class="col-md-3 col-sm-12 col-xs-12">
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2">
 			<div class="row">
-				<div class="product-deatil">
-					<h5 id="name0">MovieName:</h5>
+				<div class="col">
+					<h5 class="h5 font-weight-bold" id="name0">MovieName:</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="description">
-					<p id="description0">Description</p>
+				<div class="col">
+					<p class="h6" id="description0">Description</p>
 				</div>
 			</div>
 			<div class="row">
-				<div>
+				<div class="col-auto align-self-end" >
 						<a href="#" class="btn btn-success btn-lg" onclick="incNumber()">Like
-							<span class="glyphicon glyphicon-thumbs-up" ></span>
+							<span class="glyphicon-thumbs-up" ></span>
 						</a>
 				</div>
-				<div class="CalcText">									
-					<p id="display" class="">0</p>
+				<div class="col-auto align-self-end">									
+					<p class="h3" id="display">0</p>
 				</div>
 			</div>
 		</div>
 
-		<!-- first product end second product start -->
-
-		<div class="col-md-3 col-sm-12 col-xs-12 "> 
-			<img src="img/notebook_apple.png" id="foto1" class="img-responsive"> 
+		<!-- first product end -->
+		
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2 between" > 
+			<p></p> 
+		</div>
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2 between" > 
+			<p></p> 
 		</div>
 
-		<div class="col-md-3 col-sm-12 col-xs-12 ">
+		<!-- second product start -->
+
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2"> 
+			<img src="" id="foto1" class="img-fluid"> 
+		</div>
+
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2">
 			<div class="row" >
-				<div class="product-deatil">
-					<h5 id="name1">MovieName:</h5>
+				<div class="col">
+					<h5 class="h5 font-weight-bold" id="name1">MovieName:</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="description">
-					<p id="description1">Description</p>
+				<div class="col">
+					<p class="h6" id="description1">Description</p>
 				</div>
 			</div>
 			<div class="row">
-				<div>
+				<div class="col-auto align-self-end">
 					<a href="#" class="btn btn-success btn-lg" onclick="incNumber1()">Like
 						<span class="glyphicon glyphicon-thumbs-up" ></span>
 					</a>
 				</div>		   
-				<div class="CalcText">									
-					<p id="display1" class="">0</p>
+				<div class="col-auto align-self-end">									
+					<p class="h3" id="display1">0</p>
 				</div>
 			</div>
 		</div>
@@ -107,62 +133,72 @@
 	</div>
 
 		
-	<div class="row text-white" id="fifthrow">
+	<div class="row m-5 text-white " id="fifthrow">
 
 		<!-- third product start -->
 
-		<div class="col-md-3 col-sm-12 col-xs-12 "> 
-			<img src="img/notebook_apple.png" id="foto2"class="img-responsive"> 
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2"> 
+			<img src="" id="foto2"class="img-fluid"> 
 		</div>
 
-		<div class="col-md-3 col-sm-12 col-xs-12 ">
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2">
 			<div class="row">
-				<div class="product-deatil">
-					<h5 id="name2">MovieName:</h5>
+				<div class="col">
+					<h5 class="h5 font-weight-bold" id="name2">MovieName:</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="description">
-					<p id="description2">Description</p>
+				<div class="col">
+					<p class="h6" id="description2">Description</p>
 				</div>
 			</div>
 			<div class="row">
-				<div>
+				<div class="col-auto align-self-end">
 					<a href="#" class="btn btn-success btn-lg" onclick="incNumber2()">Like
 						<span class="glyphicon glyphicon-thumbs-up" ></span>
 					</a>
 				</div>		   
-				<div class="CalcText">									
-					<p id="display2" class="">0</p>
+				<div class="col-auto align-self-end">									
+					<p class="h3" id="display2">0</p>
 				</div>
 			</div>
 		</div>
 
-		<!-- third product end fourth product start -->
+		<!-- third product end-->
 
-		<div class="col-md-3 col-sm-12 col-xs-12 "> 
-			<img src="img/notebook_apple.png" id="foto3"class="img-responsive"> 
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2 between"> 
+			<p></p> 
+		</div>
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2 between"> 
+			<p></p> 
 		</div>
 
-		<div class="col-md-3 col-sm-12 col-xs-12 ">
+		<!-- fourth product start -->
+
+
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2"> 
+			<img src="" id="foto3"class="img-fluid"> 
+		</div>
+
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2">
 			<div class="row">
-				<div class="product-deatil">
-					<h5 id="name3">MovieName:</h5>
+				<div class="col">
+					<h5 class="h5 font-weight-bold" id="name3">MovieName:</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="description">
-					<p id="description3">Description</p>
+				<div class="col">
+					<p class="h6" id="description3">Description</p>
 				</div>
 			</div>
 			<div class="row">
-				<div>
+				<div class="col-auto align-self-end">
 					<a href="#" class="btn btn-success btn-lg" onclick="incNumber3()">Like
 						<span class="glyphicon glyphicon-thumbs-up" ></span>
 					</a>
 				</div>		   
-				<div class="CalcText">									
-					<p id="display3" class="">0</p>
+				<div class="col-auto align-self-end">									
+					<p class="h3" id="display3">0</p>
 				</div>
 			</div>
 		</div>
@@ -171,60 +207,69 @@
 
 	</div>
 		
-	<div class="row text-white" id="sixstrow">
+	<div class="row m-5 text-white " id="sixstrow">
 
 		<!-- fifth product start -->
 			
-		<div class="col-md-3 col-sm-12 col-xs-12 "> 
-			<img src="img/notebook_apple.png" id="foto4"class="img-responsive"> 
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2"> 
+			<img src="" id="foto4"class="img-fluid"> 
 		</div>
-		<div class="col-md-3 col-sm-12 col-xs-12 ">
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2">
 			<div class="row">
-				<div class="product-deatil">
-					<h5 id="name4">MovieName:</h5>
+				<div class="col">
+					<h5 class="h5 font-weight-bold" id="name4">MovieName:</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="description">
-					<p id="description4">Description</p>
+				<div class="col">
+					<p class="h6" id="description4">Description</p>
 				</div>
 			</div>
 			<div class="row">
-				<div>
+				<div class="col-auto align-self-end">
 					<a href="#" class="btn btn-success btn-lg" onclick="incNumber4()">Like
 						<span class="glyphicon glyphicon-thumbs-up" ></span>
 					</a>
 				</div>			   
-				<div class="CalcText">									
-					<p id="display4" class="">0</p>
+				<div class="col-auto align-self-end">									
+					<p class="h3" id="display4">0</p>
 				</div>
 			</div>
 		</div>
 
-		<!-- fifth product end sixst product start -->
+		<!-- fifth product end -->
 
-		<div class="col-md-3 col-sm-12 col-xs-12 "> 
-			<img src="img/notebook_apple.png" id="foto5"class="img-responsive"> 
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2 between"> 
+			<p></p> 
 		</div>
-		<div class="col-md-3 col-sm-12 col-xs-12 ">
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2 between"> 
+			<p></p> 
+		</div>
+		
+		<!-- sixst product start -->
+
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2"> 
+			<img src="" id="foto5"class="img-fluid"> 
+		</div>
+		<div class="col-xl-2 p-xl-2 col-lg-2 p-lg-2 col-md-2 p-md-2 col-sm-6 p-sm-2 col-xs-6 p-xs-2 col-6 p-2">
 			<div class="row">
-				<div class="product-deatil">
-					<h5 id="name5">MovieName:</h5>
+				<div class="col">
+					<h5 class="h5 font-weight-bold" id="name5">MovieName:</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="description">
-					<p id="description5">Description</p>
+				<div class="col">
+					<p class="h6" id="description5">Description</p>
 				</div>
 			</div>
 			<div class="row">
-				<div>
+				<div class="col-auto align-self-end">
 					<a href="#" class="btn btn-success btn-lg" onclick="incNumber5()">Like
 						<span class="glyphicon glyphicon-thumbs-up" ></span>
 					</a>
 				</div>			   
-				<div class="CalcText">									
-					<p id="display5" class="">0</p>
+				<div class="col-auto align-self-end">									
+					<p class="h3" id="display5">0</p>
 				</div>
 			</div>
 			</div>
@@ -232,9 +277,9 @@
 		
 	</div>
 
-	<div class="row text-light" id="lastrow">
-		<div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 mt-5 mb-5 offset-lg-5">
-			<span class="h3 p-1 mt-0">Movie Factory</span>
+	<div class="row md-10 text-light" id="lastrow">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 text-xl-center text-lg-center text-md-center text-sm-center text-xs-center text-center">
+			<span class="h3 mt-5">Movie Factory</span>
 		</div>
 	</div>
 
